@@ -217,7 +217,7 @@ Main Components
   top: 0;
   right: 0;
   height: 100%;
-  width: 50px;
+  width: 40px;
   pointer-events: none;
   background: -webkit-linear-gradient( right , #FFFFFF, rgba(255, 255, 255, 0));
   background: linear-gradient(to left, #FFFFFF, rgba(255, 255, 255, 0));
@@ -439,7 +439,7 @@ Main Components
 }
 .cd-pricing-features li {
   width: 100px;
-  float: left;
+margin:  0 auto;
   padding: 1.6em 1em;
   font-size: 1.4rem;
   text-align: center;
