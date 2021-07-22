@@ -752,7 +752,7 @@ xkeyframes
     transform: perspective(2000px) rotateY(180deg);
   }
   70% {
-    /* this creates the bounce effect */
+
     -webkit-transform: perspective(2000px) rotateY(-20deg);
     -moz-transform: perspective(2000px) rotateY(-20deg);
     -ms-transform: perspective(2000px) rotateY(-20deg);
@@ -767,3 +767,56 @@ xkeyframes
     transform: perspective(2000px) rotateY(0);
   }
 }
+
+/* mobile version */
+@media (min-width:701px) and (max-width:767px){
+
+ .cd-pricing-features li{
+   width: 400px !important;
+   margin-left: 140px;
+ }
+}
+@media (min-width:620px) and (max-width:700px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: 80px;
+  }
+ }
+ @media (min-width:578px) and (max-width:621px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: 70px;
+  }
+ }
+ @media (min-width:505px) and (max-width:577px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: 50px;
+  }
+ }
+ @media (min-width:440px) and (max-width:506px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: 30px;
+  }
+ }
+ @media (min-width:390px) and (max-width:441px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: 1px;
+  }
+ }
+ @media (min-width:301px) and (max-width:391px){
+
+  .cd-pricing-features li{
+    width: 400px !important;
+    margin-left: -45px;
+    font-size: 18px;
+    
+  }
+ }
