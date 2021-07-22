@@ -27,6 +27,9 @@ Main Components
   position: relative;
   
 }
+.cd-pricing-features li{
+  font-size: 20px !important;
+}
 .cd-header h1 {
   text-align: center;
   color: #000;
@@ -81,7 +84,7 @@ Main Components
   height: 40px;
   line-height: 40px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
 }
 .cd-pricing-switcher .cd-switch {
@@ -815,7 +818,7 @@ xkeyframes
 
   .cd-pricing-features li{
     width: 400px !important;
-    margin-left: -45px;
+    margin-left: -55px;
     font-size: 18px;
     
   }
